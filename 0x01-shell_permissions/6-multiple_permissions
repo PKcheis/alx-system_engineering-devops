@@ -1,2 +1,4 @@
 #!/bin/bash
 sudo chmod -rwxr-xr-- hello
+#!/bin/bash
+chmod ug+x,o+r hello

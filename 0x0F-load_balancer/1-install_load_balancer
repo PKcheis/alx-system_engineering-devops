@@ -10,6 +10,6 @@ sudo cp -a /etc/haproxy/haproxy.cfg{,.orig}
 sudo echo -e "\nlisten www" >> /etc/haproxy/haproxy.cfg
 sudo echo -e "\tbind :80" >> /etc/haproxy/haproxy.cfg
 sudo echo -e "\tbalance roundrobin" >> /etc/haproxy/haproxy.cfg
-sudo echo -e "\tserver gc-12071-web-01 34.226.233.255" >> /etc/haproxy/haproxy.cfg
-sudo echo -e "\tserver gc-12071-web-02 3.236.245.170" >> /etc/haproxy/haproxy.cfg
+sudo echo -e "\tserver gc-12071-web-01 100.26.223.202" >> /etc/haproxy/haproxy.cfg
+sudo echo -e "\tserver gc-12071-web-02 100.25.144.103" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
